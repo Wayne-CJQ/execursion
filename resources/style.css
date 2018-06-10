@@ -1,0 +1,55 @@
+/* set up the background color for the entire page*/
+*{
+  background-color: black;
+}
+
+
+/*stylish the common features of all h1*/
+h1{
+  font-family: Verdana;
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-size: 42px;
+
+}
+
+
+/*stylish the top most h1 specificaly*/
+.top{
+  font-weight: normal;
+  font-size: 50px;
+}
+
+
+/*stylish the two download links*/
+.download{
+    color: Aquamarine;
+    font-size: 16px;
+  }
+
+
+/*ajust the postion of the two download links, make them both align-centered*/
+.link{
+  text-align: center;
+}
+
+
+/*stylish all h2 content*/
+h2{
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+  text-align: center;
+}
+
+
+/*move the h2 showing the copy right to the right bottom of the page*/
+.copy{
+  text-align: right;
+}
+
+/*center all the images and video*/
+#icon, .images, .video{
+    text-align: center;
+  }
